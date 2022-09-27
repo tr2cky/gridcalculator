@@ -1,0 +1,81 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background-color: rgba(0, 0, 0, 0.664);
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    gap: 0.5px;
+    grid-template-areas: 
+    "header header header header"
+    "sign1 sign2 sign3 sign4"
+    "number7 number8 number9 equalto"
+    "number4 number5 number6 equalto"
+    "number1 number2 number3 equalto"
+    "number0 dot ac equalto";
+    width: 300px;
+    height: 400px;
+    padding: 2px;
+}
+.signs {
+    font-size: 2rem;
+    background-color: #899DAE;
+}
+.numbers {
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+    font-size: 2rem;
+}
+#header {
+    grid-area: header;
+    color: white;
+    background-color: #424C52;
+    text-align: right;
+    font-size: 2rem;
+}
+#equalto {
+    grid-area: equalto;
+    background-color: #F77077;
+    font-size: 2rem;
+}
+.numbers {
+    background-color: rgb(255, 255, 255);
+}
+#number0 {
+    grid-area: number0;
+}
+#number1 {
+    grid-area: number1;
+}
+#number2 {
+    grid-area: number2;
+}
+#number3 {
+    grid-area: number3;
+}
+#number4 {
+    grid-area: number4;
+}
+#number5 {
+    grid-area: number5;
+}
+#number6 {
+    grid-area: number6;
+}
+#number7 {
+    grid-area: number7;
+}
+#number8 {
+    grid-area: number8;
+}
+#number9 {
+    grid-area: number9;
+}
+#dot {
+    grid-area: dot;
+}
+#ac {
+    grid-area: ac;
+}
+
